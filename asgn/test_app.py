@@ -39,5 +39,6 @@ class TestApp(unittest.TestCase):
             self.requestEndpoint('/v2/reply/-teststringforv2', 400, {"message":"Invalid input"}, True)
     def test_v2_invalid_input_failure_3(self):
         self.requestEndpoint('/v2/reply/45-teststringforv2', 400, {"message":"Invalid input"}, True)
+
 if __name__ == '__main__':
     unittest.main()
