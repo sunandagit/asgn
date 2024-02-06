@@ -15,6 +15,8 @@ This Python script implements a web service using Flask framework with two endpo
      - If the rule does not have two digits, returns an error message.
    - Returns the modified string or an error message in a JSON object.
 
+# Dependency
+install python, Flask, unittest modules
 
 # Test App Module 
 
@@ -37,7 +39,8 @@ These tests a successful response from the '/v2/reply' endpoint with a specific 
 
 These tests a failure response from the '/v2/reply' endpoint with an invalid input.
 
-
+# Dependency
+install python, Flask, unittest modules
 
 
 
